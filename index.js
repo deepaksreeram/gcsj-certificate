@@ -38,7 +38,7 @@ if (idMatch) {
   console.log('ID not found in the URL.');
 }
 
-  const existingPdfBytes = await fetch("./certificate_temp.pdf").then((res) =>
+  const existingPdfBytes = await fetch("certificate_temp.pdf").then((res) =>
     res.arrayBuffer()
   );
 
